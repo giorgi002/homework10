@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.example {
+    display: grid;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}
+
+#navtag{
+    display: flex;
+    justify-content: flex-end ;
+    margin: 40px;
+    margin-top: -50px;
+}
+.htag{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 80px;
+    color: #636060;
+    
+}
+
+@media  screen and (min-width:0px) {
+    .htag {
+         display: none; 
+        }
+    i {
+        display: inline block !important ;
+        font-size: 24px !important;
+    } 
+    #owl{
+        margin-left: -250px !important;
+        margin-top: -10px !important;
+    }
+    #picture{
+        width: 260vw !important;
+        display: flex !important;
+        margin-left: 305px !important; 
+
+    }
+    #atag{
+        font-size: 30px !important;
+    }
+    .btag{
+        font-size: 50px !important;
+    }
+    #stag{
+        align-items: center !important;
+        margin-top: 100px !important;
+        display: inline-flex !important;
+        margin-left: 550px !important;
+        margin-top: 150px !important;
+
+    }
+    i{
+        display: flex !important;
+        font-size: 60px !important;   
+        margin-top: -40px !important;
+        vertical-align: 10px !important;
+        margin-left: 960px !important;
+     }
+    .wtag{
+        align-items: center !important;
+        display: inline-flex !important;
+        margin-left: 550px !important;
+        
+    }
+    main{
+        margin-left: 210px !important;
+        justify-content: center !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        margin-top:300px !important;
+    }
+    .zztag{
+        display: none !important;
+    }
+    #drtag{
+        justify-content: center !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        
+    }
+} 
+@media screen and (min-width:480px){
+    #navtag{
+        display: inline-flex !important;
+        width: 120vw !important;
+        margin-left: 300px !important;
+        margin-top: 100px !important;
+        margin-left: 40px !important;
+    }
+   
+    #drtag{
+        width: 10vw !important;
+        height: 10vh !important;
+        margin-top: -30px !important;
+        margin-left: -60px !important;
+    }
+    #owl{
+        display: inline-block !important;
+        margin-top: 50px !important;
+        margin-left: 100px !important;
+        vertical-align: 10px !important;
+    }
+    .htag {
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-top: -80px !important;
+        
+        
+       
+    }
+    #none{
+        display: none !important;
+    }
+    i{
+        display: inline-flex !important;
+        margin-top: -50px !important;
+        margin-left: 100px !important;
+        justify-content: center !important;
+        align-content: center !important
+    ;
+    }
+    #rtag {
+        margin-top: -30px !important;
+    }
+    #picture {
+        margin-top: 100px !important;
+        display: flex !important;
+        margin: 0 auto !important;
+        margin-top: -40px !important;
+        width: 150vw !important;
+        height: 80vh !important;
+    }
+    .zztag{
+    display: inline-block !important;
+    margin-left: 1000px !important;
+    vertical-align: 600px  !important;
+    margin-top: -600px !important;
+    }
+    .wtag {
+        margin-top: -80px !important;
+        margin-left: 150px !important;
+    }
+    #stag {
+        margin-top: -200px !important;
+        margin-left: 160px !important;
+    }
+    #atag {
+        font-size: 27px !important;
+    }
+    main {
+       
+        width: 2000px !important;
+        height: 700px !important;
+        margin-left: -580px !important;
+        
+    }
+    #first {
+        display: flex !important;
+        margin-left:120px !important;
+        width: 950px !important;
+        margin-top: -500px !important;
+    }
+    #second {
+
+        display: flex !important;
+        margin-top: -100px !important;
+        margin-left: -950px !important;
+        width:950px !important ;
+
+    }
+
+}
+@media screen and (min-width:762px){
+    #owl {
+        display: inline-block !important;
+        margin-left: 80px !important;
+    }
+    #picture {
+        margin-left: 0px !important;
+        width: 1500px !important;
+        height: 700px !important;
+    }
+    #navtag { 
+        display: flex !important;
+        margin-left: 1000px !important;
+        width: 800px !important;
+        height: 100px !important;
+        margin-top: -35px !important;
+        justify-content: space-between !important;
+        margin-left: 550px !important;
+    }
+    .htag{
+        display: inline-flex !important;
+        justify-content: flex-end !important;
+        margin-top: 50px !important;
+    }
+    .zztag{
+        display:inline-block !important;
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+    main {
+        height: 500px !important;
+        width: 1200px !important;;
+        display: flex !important;
+        margin-left: 200px !important;
+        margin-top: -340px !important;
+    }
+    #stag {
+        display: inline-flex!important;
+        justify-content: center !important;
+        margin-top: 250px !important;
+        margin-left: 40px !important;
+    }
+    #atag {
+        font-size: 19px !important;
+    }
+    .btag {
+        font-size: 79px !important;
+    }
+    .wtag {
+        margin-left: 20px !important;
+    }
+
+
+}
+
+
+i{ 
+    margin-left: -100px;
+    display:  flex! important  ;
+}
+#owl{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 80px;
+
+}
+#rtag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btag {
+    font-size: 79px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.wtag{
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+}
+#stag{ 
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    align-items: flex-end;
+}
+#atag{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+#otag{
+    font-size: 17px;
+    color: #636060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.utag{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+}
+#ptag {
+    display: flex;
+    width: 320px;
+    height:100px;
+    justify-content: center;
+}
+#ntag {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #010101;
+    font-weight: 200;
+}
+#ztag{
+    width: 255px;
+    height: 80px;
+    margin-left: 55px;
+}
+.vtag{
+    font-size: 20px;
+    color: #636060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#first{
+    justify-content: space-between;
+    width: 1000px;
+    height: 400px;
+    flex-wrap: wrap;
+    display: inline-flex;
+    margin-top: -280px;
+    vertical-align: 65px;
+    margin-left: 350px;
+}
+.mtag { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #343232;
+    font-weight: 400;
+}
+.ftag{
+    display: inline-block;
+    width: 280px;
+    height: 300px;
+    vertical-align: 445px;
+}
+.xtag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #636060;
+}
+#second{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 380px;
+    margin-left: 350px;
+    justify-content: space-between;
+}
+
+
+
+
